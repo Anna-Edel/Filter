@@ -1,0 +1,38 @@
+body {
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.img {
+  width: 250px;
+  margin: 5px;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.toolbar {
+  display: flex;
+  margin: 5px;
+}
+
+.toolbar-btn {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toolbar-btn-current {
+  background-color: #000000;
+  color: #fbf7f7;
+}
